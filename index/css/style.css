@@ -1,0 +1,249 @@
+.section {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+.section-head {
+  /* font-size: 9vmin; */
+  margin: 20px auto;
+  text-align: center;
+}
+.servise-box h2 .section-head::after {
+  background-color: black;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin: 20px auto;
+}
+#header {
+  color: rgb(7, 5, 5);
+  background: whitesmoke;
+}
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  display: flex;
+}
+#menu li {
+  color: #fff;
+  background: #c0c0c0;
+  padding: 15px 10px;
+  display: block;
+}
+
+#banner {
+  background-color: aqua;
+}
+#img-1 {
+  padding-top: 5rem;
+}
+.banner-tittle {
+  padding-top: 4rem;
+}
+.banner-tittle button {
+  box-sizing: border-box;
+  width: 183px;
+  height: 61px;
+  left: 0px;
+  top: 0px;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+}
+.servise-box h2::after {
+  background-color: black;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin: 20px auto;
+}
+.servise-box {
+  text-align: center;
+}
+.vector {
+  background-image: url(/image/Vector\(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #c4c4c4;
+}
+.vector {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 57px;
+  height: 241px;
+  border: 4px solid #c4c4c4;
+}
+.servise-box .box-item {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.servise-box .box-item a {
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 150px;
+  height: 32.42px;
+  background: #ef8094;
+  border: 6px solid #ef8094;
+  border-radius: 700px;
+}
+
+#testimonials {
+  background-color: aquamarine;
+}
+.testimonial {
+  text-align: center;
+}
+.testimonial img {
+  position: relative;
+}
+.testimonial-1 h2 {
+  position: absolute;
+  width: 500px;
+  height: 149px;
+  top: 65px;
+  padding-right: 190px;
+
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  color: #000000;
+}
+
+.testimonial-1 p {
+  position: absolute;
+  width: 391px;
+  height: 96px;
+  top: 173px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.work1 {
+  padding-right: 90px;
+  text-align: center;
+}
+.work1 h2 {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+
+  /* or 122% */
+
+  color: #000000;
+}
+.work1 p {
+  width: 409px;
+  font-family: "DM Sans";
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 18px;
+  /* line-height: 23px; */
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.container-fluid {
+  background: #f5f8ff;
+}
+.container-fluid p {
+  margin-top: 30px;
+  font-size: 4vmin;
+}
+.lastbtn button {
+  text-align: center;
+  color: #fff;
+  /* box-sizing: border-box; */
+  width: 320px;
+  height: 61px;
+  left: 0px;
+  top: 0px;
+  background: #ef8094;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+}
+.lastbtn {
+  text-align: center;
+}
+
+#footer-sidebar {
+  padding: 15px auto;
+  list-style: none;
+}
+#footer-sidebar a {
+  color: black;
+  line-height: 200%;
+}
+
+@media (max-width: 768px) {
+  .lastbtn {
+    text-align: center;
+  }
+  .sec111 {
+    text-align: center;
+  }
+  .sec111 .vector {
+    flex-direction: column;
+  }
+  .vector {
+    box-sizing: border-box;
+    width: 300px;
+    height: 231px;
+    border: 4px solid #c4c4c4;
+  }
+  #vector2 {
+    margin-top: 20px;
+    margin-left: 125px;
+  }
+  #paragraf {
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+  }
+
+  #Reviw {
+    margin-top: 190px;
+  }
+
+  #footerId {
+    margin-top: 290px;
+  }
+  .testimonial-1 h2 {
+    margin-top: auto;
+  }
+
+  #footerId p {
+    /* position: absolute; */
+    width: 312px;
+    height: 119px;
+    left: 32px;
+    top: 2346px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+  }
+
+  .logo-icon{
+    display: none;
+  }
+}
