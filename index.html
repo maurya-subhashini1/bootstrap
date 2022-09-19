@@ -8,36 +8,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- <div id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="/image/Logo.png" alt="logo" id="logo"/>
-                </div>
-                <div class="col-md-4">
-                    <ul id="menu" class="float-md-right d-flex ml-auto">
-                        <li><a href="#"></a>THISMONTH</li>
-                        <li><a href="#"></a>SKIN</li>
-                        <li><a href="#"></a>HAIR</li>
-                        <li><a href="#"></a>BATH</li>
-                        <li><a href="#"></a>SALE</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <nav class="navbar navbar-expand-sm ">
-        <div class="container">
-            <img class="navbar-brand logo1" src="/image/Logo.png"/>
+    <img src="image/TOPBAR 1.png" class="img-fluid fixed">
+    <nav class="navbar navbar-expand-sm d-md-none d-lg-block d-sm-block" id="firstnav">
+        <div class="container mt-0">
+            <img class="navbar-brand logo1" src="image/Logo.png"/>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
              data-target="#collapsenavbar">
-            <span class="navbar-toggler-icon bg-dark " id="meniid"></span>
+            <span class="navbar-toggler-icon bg-dark" id="meniid"></span>
         </button>
 
         <div class="collapse navbar-collapse text-center" id="collapsenavbar">
             
-            <ul class="navbar-nav ml-10">
+            <ul class="navbar-nav ml-lg-10">
                 <li class="nav-item">
                     <a href="" class="nav-link ">THISMONTH</a>
                 </li>
@@ -54,7 +36,7 @@
                     <a href="" class="nav-link">SALE</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link float-md-right ctn" type="button">LOG IN -></a>
+                    <a href="" class="nav-link float-md-left ctn " id="loginbtn" type="button">LOG IN -></a>
                 </li>
             </ul>
         </div>
@@ -62,18 +44,66 @@
         
         </div>
     </nav>
+
+
+
+    <nav class="navbar navbar-expand-sm d-lg-none d-sm-none d-md-block  secodnav">
+        <div class="container mt-0">
+            <img class="navbar-brand logo1" src="image/Logo.png"/>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+             data-target="#collapsenavbar">
+            <span class="navbar-toggler-icon bg-dark" id="meniid"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+            
+            <ul class="navbar-nav ml-1">
+                <li class="nav-item">
+                    <a href="" class="nav-link ">THISMONTH</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SKIN</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">HAIR</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">BATH</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SALE</a>
+                </li>
+                <li class="nav-item">
+                    <a href=""  type="button"class="nav-link">LOGIN -></a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
     <div id="banner">
-        <div class="container">
+        <div class="container bannercontainer">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="banner-tittle">
-                    <h2 class="title">Look good without leaving your house.</h2>
+                    <h2 class="font-weight-bold title">Look good without leaving your house.</h2>
                     <p>Upbox is the easiest way to look your best without having to hunt for the perfect makeup combination. Our stylists curate the latest trends and send them directly to your door every month.</p>
                     <button  class="btn" type="button">SIGN UP ></button>
                 </div>
                 </div>
                 <div class="col-lg-6  col-md-6 col-sm-12">
-                    <img id="img-1" class="img-fluid" src="/image/BOX(2).png" alt="firstimagr"/>
+                    <img id="img-1" class="img-fluid" src="image/BOX(2).png" alt="firstimagr"/>
                     
                 </div>
             </div>
@@ -83,23 +113,24 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="servise-box">
-                    <h2 class="section-head">How it works?</h2>
+                    <h2 class="font-weight-bold section-head">How it works?</h2>
             </div>
             </div>
-            <div class="col-md-6 col-sm-12 m-auto vector">
+
+            <div class="col-md-6 col-sm-12  m-auto vector">
                 <div class="servise-box">
                     <div class="box-item">
                     <h3>Monthly</h3>
-                    <span>$18/mo</span><br>
+                    <span class="font-weight-bold">$18/mo</span><br>
                     <a class="btn" type="button">FIND YOUR BOX</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 m-auto vector" id="vector2">
+            <div class="col-md-5 col-sm-12  m-auto vector" id="vector2">
                 <div class="servise-box">
                     <div class="box-item">
                     <h3>Yearly</h3>
-                    <span>$15/mo</span><br>
+                    <span class="font-weight-bold">$15/mo</span><br>
                     <a class="btn" type="button">FIND YOUR BOX</a>
                     </div>
                 </div>
@@ -114,82 +145,40 @@
 
     <section class="section bg-light">
         <div class="container text-center">
-            <h1>How it works?</h1>
+            <h1 class="font-weight-bold">How it works?</h1>
         <div class="row mt-4">
             <div class="col-lg-6 col-md-6 col-sm-12 col-10 d-block m-auto  plan1img">
-                <img src="/image/Group 2.png" class="img-fluid">
+                <img src="image/Group 2.png" class="img-fluid">
             </div>
             <div class="mt-lg-5 col-lg-6 col-md-6 col-sm-12 col-10  m-auto d-block paln1paragraf1">
-                    <h2>Setup your profile & <br> preferences</h2>
+                    <h2 class="font-weight-bold">Setup your profile <br>& preferences</h2>
                     <p>Once you create an account, you can start to tell us your likes and dislikes so we can tailor the experience just for you.</p>
             </div>
         </div>
         </div>
     </section>
-    <!-- <div id="testimonials" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="section-head">How it works?</h2>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial">
-                        <img src="/image/Group 2.png" alt="seconde-img" class="img-fluid sec-2"/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial">
-                        <div class="testimonial-1 mb-sm-5">
-                        <h2>Setup your profile &<br>
-                            preferences</h2>
-                        <p>Once you create an account, you can start to tell us your likes and dislikes so we can tailor the experience just for you.</p>
-                        </div>
-                    </div>
-                </div>
-               
-
-            </div>
-        </div>
-
-    </div> -->
     <section  class="section">
     <div class="container text-center">
         <div class="row mt-4">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-10 d-block m-auto  plan3img img-fluid">
-                <img src="/image/Group 1.png" class="img-fluid"><br>
+            <div class="col-lg-7 col-md-12 col-sm-12 col-10 d-block m-auto  plan3img img-fluid">
+                <img src="image/Group 1.png" class="img-fluid"><br>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-10 d-block m-auto">
-                <h2>Try it on at home</h2>
-                <p>Your box will arrive within 3-5 days (usually sooner) and you<br> 
-                    get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-10 d-block m-auto">
+                <h2 class="font-weight-bold">Review your 
+                    custom box</h2>
+                <p>Once we get to know you, we will show you the box we’ve crafted. This is your chance to approve it before we ship it to your house.</p>
             </div>
         </div>
     </div>
     </section>
-    <!-- <div class="container" id="Reviw">
-        <div class="row  mb-100" id="box3">
-            <div class="col-12">
-                <figure>
-                    <img class="img-fluid mb-50" src="/image/Group 1.png" alt="iamge-2"/>
-                </figure>
-            </div>
-            <div class="col-12">
-                <div class="work1">
-                    <h2>Review your 
-                        custom boxe</h2>
-                    <p class="m-auto">Once we get to know you, we will show you the box we’ve crafted. This is your chance to approve it before we ship it to your house.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <section class="section">
         <div class="container text-center m-auto mb-5  mysetting">
             <div class="row mb-4">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-10 d-block m-auto  plan2img">
-                    <img src="/image/Mask Group(1).png" class="img-fluid">
+                    <img src="image/Mask Group(1).png" class="img-fluid">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-10 d-block paln1paragraf1">
-                    <h2>Try it on at home</h2>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-10 d-block paln2paragraf1">
+                    <h2 class="font-weight-bold">Try it on at home</h2>
                     <p>Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
                 </div>
             </div>
@@ -200,52 +189,26 @@
 
         </div>
     </section>
-    <!-- <div id="section-div3" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="divimage3  imag-fluid">
-                        <img src="/image/Mask Group(1).png" alt="seconde-img" class="img-fluid float-md-right sec-2"/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial">
-                        <div class="testimonial-1">
-                        <h2>Try it on at home</h2>
-                        <p class="mb-50">Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
-                        </div>
-                    </div>
-                </div>
-               
-
-            </div>
-            <div class=" m-auto lastbtn1">
-                <button>TRY IT FOR YOURSELF ></button>
-    
-            </div>
-        </div>
-
-    </div> -->
     <div class="container-fluid" id="footerId">
         <div class="container" id="lastcontainer">
-                <h1 class="m-auto text-bold section-head">Social Posts</h1>
+                <h1 class="font-weight-bold m-auto text-bold section-head">Social Posts</h1>
         <div class="row">
 
             <div class="col-lg-3  col-md-6 col-sm-12">
-                <img src="/image/img1.png" class="img-fluid" alt="">
-                <p class="mt-4 ">How to rock the lip look that turns heads</p>
+                <img src="image/img1.png" class="img-fluid" alt="">
+                <p class="mt-4 ">How to rock the lip look turns heads</p>
             </div>
             <div class=" col-lg-3 col-md-6 col-sm-12">
-                <img src="/image/img2.png" class="img-fluid" alt="">
-                <p>How to rock the lip look that turns heads</p>
+                <img src="image/img2.png" class="img-fluid" alt="">
+                <p>Find the perfect shade for the season</p>
             </div>
             <div class="col-lg-3 col-md-6 col col-sm-12">
-                <img src="/image/img3.png" class="img-fluid" alt="">
-                <p>How to rock the lip look that turns heads</p>
+                <img src="image/img3.png" class="img-fluid" alt="">
+                <p>The 5 eye shadow secrets you never knew</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="/image/img4.png" class="img-fluid" alt="">
-                    <p>How to rock the lip look that turns heads</p>
+                    <img src="image/img4.png" class="img-fluid" alt="">
+                    <p>The pro-tips for at home hair dying</p>
             </div>
             
         </div>
@@ -260,15 +223,15 @@
         <div class="container  footerCont">
             <div class="row m-auto mt-5 foot">
                 <div class="col-lg-6 col-md-6">
-                    <img id="logo" src="/image/Logo.png">
+                    <img id="logo" src="image/Logo.png">
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="logo-icon">
-                        <img src="/image/ig.png" alt="logo" />
-                        <img src="/image/fb.png" alt="logo" />
-                        <img src="/image/tw.png" alt="logo" />
-                        <img src="/image/sc.png" alt="logo" />
+                        <img src="image/ig.png" alt="logo" />
+                        <img src="image/fb.png" alt="logo" />
+                        <img src="image/tw.png" alt="logo" />
+                        <img src="image/sc.png" alt="logo" />
                       </div>
                 </div>
            </div>
@@ -348,13 +311,13 @@
             </div>
 
         </div>
-        <!-- <hr>
+        <hr>
         <div class="d-flex m-auto" id="BGFOOTER">
         <p>
             © 2020 Quest AI. Upbox is a Sample Project and open source design
             project free for personal and commercial use.
           </p>
-          </div> -->
+          </div>
     </div>
     </div>
 
@@ -362,17 +325,9 @@
         <div class="container  d-md-none">
             <div class="row m-auto mt-5 foot">
                 <div class="col-12">
-                    <img id="logo" src="/image/Logo.png">
+                    <img id="logo" src="image/Logo.png">
 
                 </div>
-                <!-- <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="logo-icon">
-                        <img src="/image/ig.png" alt="logo" />
-                        <img src="/image/fb.png" alt="logo" />
-                        <img src="/image/tw.png" alt="logo" />
-                        <img src="/image/sc.png" alt="logo" />
-                      </div>
-                </div> -->
            </div>
            <div class="row">
                 <div class=" col-6">
