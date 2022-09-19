@@ -1,6 +1,14 @@
 .section {
+  height: auto;
+  width: 100%;
   padding-top: 20px;
   margin-bottom: 20px;
+}
+.nav-link {
+  color: #000000;
+}
+span {
+  color: #fff;
 }
 a:hover {
   text-decoration: none;
@@ -36,9 +44,8 @@ a:hover {
   padding: 15px 10px;
   display: block;
 }
-
-#banner {
-  background-color: aqua;
+.allli {
+  margin-left: 200px;
 }
 #img-1 {
   padding-top: 5rem;
@@ -63,6 +70,34 @@ a:hover {
   height: 4px;
   margin: 20px auto;
 }
+.mysetting {
+  margin-top: 40px;
+}
+/* .plan1img {
+  background-image: url(/image/1.png);
+  background-repeat: no-repeat;
+  width: 324px;
+  height: 485px;
+  left: 100px;
+  top: 12px;
+}
+.plan1img img {
+  margin: auto;
+} */
+
+.plan2img {
+  background-image: url(/image/3.png);
+  background-repeat: no-repeat;
+  width: 324px;
+  height: 485px;
+  /* left: 200px; */
+  top: 18px;
+}
+
+.plan2img img {
+  margin: auto;
+}
+
 .servise-box {
   text-align: center;
 }
@@ -94,9 +129,6 @@ a:hover {
   border-radius: 700px;
 }
 
-#testimonials {
-  background-color: aquamarine;
-}
 .testimonial {
   text-align: center;
 }
@@ -114,20 +146,6 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  color: #000000;
-}
-
-.testimonial-1 p {
-  position: absolute;
-  width: 391px;
-  height: 96px;
-  top: 173px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0.01em;
-
   color: #000000;
 }
 .work1 {
@@ -148,9 +166,7 @@ a:hover {
   width: 409px;
   font-family: "DM Sans";
   font-style: normal;
-  /* font-weight: 400; */
   font-size: 18px;
-  /* line-height: 23px; */
   letter-spacing: 0.01em;
 
   color: #000000;
@@ -166,7 +182,6 @@ a:hover {
 .lastbtn button {
   text-align: center;
   color: #fff;
-  /* box-sizing: border-box; */
   width: 320px;
   height: 61px;
   left: 0px;
@@ -178,6 +193,33 @@ a:hover {
 .lastbtn {
   text-align: center;
 }
+.ctn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 105px;
+  height: 32px;
+  margin-left: 80px;
+  top: 30px;
+
+  background: #ffffff;
+  border: 2px solid #f5f2f2;
+  border-radius: 300px;
+}
+.mysetting .lastbtn1 {
+  /* padding-top: 50px; */
+  text-align: center;
+}
+.mysetting .lastbtn1 button {
+  text-align: center;
+  color: rgb(24, 23, 23);
+  width: 320px;
+  height: 61px;
+  left: 0px;
+  top: 20px;
+  border: 4px solid #ef8094;
+  border-radius: 300px;
+}
 
 #footer-sidebar {
   padding: 15px auto;
@@ -187,8 +229,14 @@ a:hover {
   color: black;
   line-height: 200%;
 }
-
 @media (max-width: 768px) {
+  #footerId{
+    width: 375px;
+    /* display: none; */
+  }
+  .footerCont {
+    display: none;
+  }
   .lastbtn {
     text-align: center;
   }
@@ -214,36 +262,191 @@ a:hover {
     text-align: center;
     width: 300px;
   }
+  .logo1 {
+    /* position: absolute; */
+    width: 86px;
+    height: 56px;
+  }
+  .mysetting .lastbtn1 button {
+    font-size: 3vmin;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-right: 80px;
+    /* top: 10px; */
+    border: 4px solid #ef8094;
+    border-radius: 200px;
+  }
+  .ctn {
+    box-sizing: border-box;
 
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    margin-left: 40px;
+    top: 30px;
+
+    background: #ffffff;
+    border: 2px solid #f5f2f2;
+    border-radius: 300px;
+  }
   #Reviw {
     margin-top: 190px;
   }
-
+  #lastcontainer {
+    text-align: center;
+  }
+  #lastcontainer p {
+    text-align: center;
+  }
   #footerId {
-    margin-top: 290px;
+    margin-top: 40px;
   }
   .testimonial-1 h2 {
     margin-top: auto;
   }
 
-  #footerId p {
-    /* position: absolute; */
+  /* #footerId p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 312px;
+    padding-left: 32px;
     height: 119px;
-    left: 32px;
     top: 2346px;
-
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 4vmin;
     line-height: 29px;
     letter-spacing: 0.01em;
 
     color: #000000;
+  } */
+  .lastbtn button {
+    font-size: 3vmin;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    margin-right: 80px;
+    top: 0px;
+    background: #ef8094;
+    border: 4px solid #ef8094;
+    border-radius: 80px;
+  }
+  .lastbtn {
+    text-align: center;
+  }
+  .foot {
+    display: flex;
+  }
+  #logo {
+    width: 13;
+    height: 38px;
+    margin-right: 80px;
+    top: 40.73px;
   }
 
-  .logo-icon{
+  /* #footer-row {
+    display: flex;
+  } */
+  .plan1img {
+    text-align: center;
+  }
+  .footer-sidebar {
     display: none;
+  }
+  /* #footer-mobile {
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 897.69px;
+    width: 90%;
+    left: 14px;
+    right: 14px;
+    background: #eeeeee;
+    border: 2px solid #c4c4c4;
+    border-radius: 6px;
+  } */
+
+  #meniid {
+    margin-left: 70px;
+    /* margin: auto; */
+  }
+  /* hr{
+    width: 30px;
+  } */
+  /* #BGFOOTER P {
+    flex-direction: column;
+  } */
+
+  #footer-mobile li {
+    list-style: none;
+    color: #000000;
+  }
+
+  #footer-mobile {
+    width: 348x;
+    box-sizing: border-box;
+    position: absolute;
+    height: 747.69px;
+    left: 13px;
+    right: 14px;
+
+    background: #eeeeee;
+    border: 2px solid #c4c4c4;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 988px) {
+  ul {
+    margin-right: 80px;
+  }
+  #footerId img {
+    /* position: absolute; */
+    width: 342px;
+    height: 431px;
+    left: 0px;
+    top: 677px;
+  }
+  #footerId {
+    /* position: absolute; */
+    /* height: 1556px; */
+    left: 0px;
+    right: 0px;
+
+    background: #f5f8ff;
+  }
+  #footerId p {
+    width: 322px;
+  }
+  ul .ctn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    margin-left: 80px;
+    top: 30px;
+
+    background: #ffffff;
+    border: 2px solid #f5f2f2;
+    border-radius: 300px;
+  }
+  #footer-sidebar {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    height: 721.7px;
+    left: 40px;
+    right: 40px;
+    top: 990px;
+
+    background: #eeeeee;
+    border: 2px solid #c4c4c4;
+    border-radius: 6px;
   }
 }
