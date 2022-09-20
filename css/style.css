@@ -100,16 +100,11 @@ nav {
 }
 .paln1paragraf1 h2 {
   text-align: center;
-  width: 511px;
-  height: 109px;
-  top: 65px;
-  padding-right: 90px;
 
-  font-family: "DM Serif Text";
-  font-style: normal;
-  font-weight: 10px;
-  font-size: 8vmin;
-  line-height: 55px;
+  top: 65px;
+  padding-right: 200px;
+
+  /* font-size: 6vmin; */
   color: #000000;
 }
 
@@ -165,18 +160,7 @@ nav {
 
   color: #000000;
 }
-/* .paln2paragraf1 h2 {
-  width: 511px;
-  height: 91px;
-  padding-right: 180px;
 
-  font-family: "DM Serif Text";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 7vmin;
-  line-height: 44px;
-  color: #000000;
-} */
 .servise-box {
   text-align: center;
 }
@@ -284,7 +268,7 @@ span {
   width: 124px;
   height: 37px;
   left: 1050px;
-  top: 30px;
+  top: 10px;
 
   background: #ffffff;
   border: 2px solid #4a4a4a;
@@ -340,9 +324,9 @@ span {
   }
   .paln1paragraf1 h2 {
     text-align: center;
-    width: 306px;
-    height: 149px;
-
+    width: 506px;
+    height: 199px;
+    margin-top: 30px;
     font-family: "DM Serif Text";
     font-style: normal;
     font-weight: 400;
@@ -352,9 +336,11 @@ span {
 
     color: #000000;
   }
+
   .paln1paragraf1 p {
     width: 277px;
     height: 96px;
+    margin-bottom: 50px;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -533,6 +519,11 @@ span {
     width: 312px;
 
     text-align: center;
+  }
+  .plan2img {
+    background-image: url(/image/3.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
   }
 
   .plan1img {
