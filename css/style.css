@@ -61,9 +61,15 @@ nav {
   height: 422px;
   left: 0px;
   right: 89px;
-  top: 0px;
+  top: 30px;
 
   background: #f5f8ff;
+}
+.logo1 {
+  width: 221px;
+  height: 56px;
+  left: 111px;
+  top: 27px;
 }
 .banner-tittle {
   padding-top: 4rem;
@@ -328,7 +334,7 @@ span {
     /* position: absolute; */
     /* width: 545px; */
     height: 714px;
-    background-color: #ef8094;
+    /* background-color: #ef8094; */
     /* left: 336px; */
     top: 1617px;
   }
@@ -340,7 +346,7 @@ span {
     font-family: "DM Serif Text";
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 7vmin;
     line-height: 44px;
     letter-spacing: -0.01em;
 
@@ -488,10 +494,10 @@ span {
   }
 
   #footer-mobile {
-    width: 348px;
+    width: 355px;
     box-sizing: border-box;
-    left: 13px;
-    right: 14px;
+    margin-left: 15px;
+    margin-right: 13px;
 
     background: #eeeeee;
     border: 2px solid #c4c4c4;
